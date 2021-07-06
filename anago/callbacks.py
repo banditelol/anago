@@ -2,7 +2,7 @@
 Custom callbacks.
 """
 import numpy as np
-from keras.callbacks import Callback
+from tensorflow.keras.callbacks import Callback
 from seqeval.metrics import f1_score, classification_report
 
 

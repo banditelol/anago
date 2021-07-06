@@ -3,7 +3,7 @@ import unittest
 from pprint import pprint
 
 import numpy as np
-from keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import ModelCheckpoint
 
 import anago
 from anago.utils import load_data_and_labels, load_glove

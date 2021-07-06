@@ -3,9 +3,9 @@ Model definition.
 """
 import json
 
-from keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, TimeDistributed
-from keras.layers.merge import Concatenate
-from keras.models import Model, model_from_json
+from tensorflow.keras.layers import Dense, LSTM, Bidirectional, Embedding, Input, Dropout, TimeDistributed
+from tensorflow.keras.layers import Concatenate
+from tensorflow.keras.models import Model, model_from_json
 
 from anago.layers import CRF
 

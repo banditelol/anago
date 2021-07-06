@@ -8,8 +8,8 @@ import numpy as np
 from allennlp.modules.elmo import Elmo, batch_to_ids
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.externals import joblib
-from keras.utils.np_utils import to_categorical
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 from anago.utils import Vocabulary
 

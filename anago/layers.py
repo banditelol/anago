@@ -1,15 +1,15 @@
 from __future__ import absolute_import
 from __future__ import division
 
-import keras.backend as K
-from keras import activations
-from keras import initializers
-from keras import regularizers
-from keras import constraints
-from keras.engine import Layer
-from keras.engine import InputSpec
-from keras.objectives import categorical_crossentropy
-from keras.objectives import sparse_categorical_crossentropy
+import tensorflow.keras.backend as K
+from tensorflow.keras import activations
+from tensorflow.keras import initializers
+from tensorflow.keras import regularizers
+from tensorflow.keras import constraints
+from tensorflow.keras.layers import Layer
+from tensorflow.keras.layers import InputSpec
+from tensorflow.keras.metrics import categorical_crossentropy
+from tensorflow.keras.metrics import sparse_categorical_crossentropy
 
 
 class CRF(Layer):

@@ -135,10 +135,6 @@ $ python setup.py install
 
 ## Documentation
 
-(coming soon)
-
-Fantastic documentation is available at [http://example.com/](http://example.com/).
-
 <!--
 ## Data and Word Vectors
 
